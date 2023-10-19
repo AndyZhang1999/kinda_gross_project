@@ -1,15 +1,15 @@
-# Skin-Hair-Removal-Based-On-Digital-Image-Processing
- 一个毛发去除方法，以论文COMPARATIVE ANALYSIS OF AUTOMATIC SKIN LESION SEGMENTATION WITH TWO DIFFERENT IMPLEMENTATIONS作为参考来实现。
+# Skin-Hair-Removal-Based-On-Digital-Image-Processing-replication
+A hair removal method (I'm serious...), replicated with the paper COMPARATIVE ANALYSIS OF AUTOMATIC SKIN LESION SEGMENTATION WITH TWO DIFFERENT IMPLEMENTATIONS as a reference.
 
-代码使用方法见代码文件中的注释
+Please look at the comments (chin version though) in the code file for how to use the code.
 
-Hair_Removal.py为论文中Method 1预处理步骤中的毛发去除方法的复现
+Hair_Removal.py is a reproduction of the hair removal method in the Method 1 preprocessing step in the paper.
 
-Hair_Removal_with_groundtruthimg.py是在Hair_Removal.py的基础上使用了groundTruth改进图像处理的质量
+Hair_Removal_with_groundtruthimg.py is based on Hair_Removal.py and uses ground truth to improve image processing quality.
 
-Hair_Removal_with_groundtruthimg_batch_processing.py是Hair_Removal_with_groundtruthimg.py的批量处理版本，可用于批量处理一个文件夹中的多个图像
+Hair_Removal_with_groundtruthimg_batch_processing.py is the batch processing version of Hair_Removal_with_groundtruthimg.py and can be used to batch process multiple images in a folder
 
-Hair_Removal_with_groundtruthimg.py部分处理效果图如下所示：
+The partial processing effect of Hair_Removal_with_groundtruthimg.py is as follows:
 
 ![](https://i.loli.net/2020/12/10/5F1OPt7QElwvXKM.jpg)
 
@@ -17,10 +17,13 @@ Hair_Removal_with_groundtruthimg.py部分处理效果图如下所示：
 
 ![](https://i.loli.net/2020/12/10/j2O934xYUblsEpg.jpg)
 
-Hair_Removal_with_groundtruthimg.py与Hair_Removal.py的结果对比，左侧图像为Hair_Removal.py的处理结果，右侧图像为Hair_Removal_with_groundtruthimg.py的处理结果
+Comparison of the results of Hair_Removal_with_groundtruthimg.py and Hair_Removal.py. The image on the left is the processing result of Hair_Removal.py, and the image on the right is the processing result of Hair_Removal_with_groundtruthimg.py.
 
 ![](https://i.loli.net/2020/12/10/k6gHBP4GDlfCiS5.png)
 
 ![](https://i.loli.net/2020/12/10/FKICciTu83HN1EQ.png)
 
 ![](https://i.loli.net/2020/12/10/PxHQt7TbEFkZMon.png)
+
+Ref:
+Hasan, M.K., Alyafi, B., & Tushar, F.I. (2019). Comparative Analysis of Automatic Skin Lesion Segmentation with Two Different Implementations. ArXiv, abs/1904.03075.
