@@ -1,4 +1,4 @@
-# Skin-Hair-Removal-Based-On-Digital-Image-Processing-replication
+# No-more-hairy!!
 A hair removal method (I'm serious...), replicated with the paper COMPARATIVE ANALYSIS OF AUTOMATIC SKIN LESION SEGMENTATION WITH TWO DIFFERENT IMPLEMENTATIONS as a reference.
 
 Please look at the comments (chin version though) in the code file for how to use the code.
